@@ -1,3 +1,4 @@
+
 # 📚 Data Engineering & Machine Learning Pipelines
 
 This repository is an **index of my end-to-end data projects** — covering data engineering pipelines, analytical dashboards, and lightweight machine learning models.  
@@ -41,4 +42,48 @@ Each project demonstrates **real-world workflows**: from data extraction and val
 
 
 ---
+
+
+
+#
+#
+#
+# DevOps, AWS & IaC Pipelines
+
+This section indexes my cloud engineering and DevOps projects — focused on AWS, Terraform IaC, containerized workloads, and CI/CD automation.  
+Each project demonstrates real-world deployment workflows: from infrastructure provisioning to application rollout, logging, and cost-optimized architecture.
+
+## 🗂️ Project Index
+
+| Project | Description | Stack | Highlights |
+|--------|-------------|--------|------------|
+| **Flask ECS Deployment** | Containerized Flask app deployed on AWS ECS Fargate with full Terraform IaC and CI/CD. | AWS (ECS, ECR, ALB, VPC), Terraform, GitHub Actions | CI/CD pipeline, IaC-managed VPC + ALB + ECS, cost optimization, CloudWatch logs. |
+
+🔗 **Project:** https://github.com/luciocolombo/ecs-flask/pull/1
+
+---
+
+## 🔍 Core Features
+
+- Complete AWS infrastructure provisioned with **Terraform**
+- Container packaging and deployment via **ECR + ECS Fargate**
+- **Application Load Balancer** routing with Target Groups and Listener rules
+- **GitHub Actions** CI pipeline building and pushing Docker images
+- **CloudWatch** centralized logging
+- **Security Groups**, public networking, VPC-level routing
+- Cost-optimized environment (`desired_count = 0`, no NAT Gateway)
+
+---
+
+## 🧰 Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| Cloud | AWS ECS, ECR, ALB, CloudWatch, IAM, VPC |
+| IaC | Terraform |
+| DevOps | Git, GitHub Actions |
+| Containerization | Docker |
+| Languages | Python (Flask app containerized) |
+
+
 
